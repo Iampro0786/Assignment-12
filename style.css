@@ -47,3 +47,84 @@ a{
     color: #FFFFFF;
     padding: 5px 20px;
 }
+.hero{
+    display: flex;
+}
+.hero h5{
+    width: 59px;
+    height: 24px;
+    font-weight: 700;
+    size: 16px;
+    letter-spacing: 0.1px;
+    color: #96BB7C;
+}
+.hero h1{
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.hero h4{
+    line-height: 30PX;
+    font-weight: 400;
+    size: 20PXpx;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.herobutton1{
+    border-radius: 5px;
+    background-color: #96BB7C;
+    width: 100px;
+    height: 40px;
+    color: #FFFFFF;
+}
+.herobutton2{
+    border-color: #96BB7C;
+    color: #96BB7C;
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 40px;
+}
+.image1{
+    width: 350px;
+    height: 350px;
+}
+.image2{
+    width: 350px;
+    height: 350px;
+}
+.image3{
+    width: 350px;
+    height: 350px;
+}
+.image4{
+    width: 30px;
+    height: 30px;
+    
+}
+.imagess{
+    display: flex;
+    position: relative;
+}
+
+.imagess img{
+    position: absolute;
+}
+.card{
+    display: flex;
+    gap: 20px;
+}
+
+.card1{
+    width: 300px;
+    height: 300px;
+    background-color: #FFFFFF;
+}
+.card2{
+    width: 300px;
+    height: 300px;
+    background-color: #FFFFFF;
+}
+.card3{
+    width: 300px;
+    height: 300px;
+    background-color: #FFFFFF;
+}
