@@ -1,130 +1,187 @@
+Reset css *********/
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+
+} 
+/*******
+Global *********/
+Html{
+    font-size: 16px;
 }
-header{
-    background-color: #FFFFFF;
-    padding: 0.5rem 0px;
-}
-.row{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.w-80{
-    width: 80%;
-    margin: auto;
-}
-.logo a{
-    top: 17px;
-    left: 136px;
-    color: #252B42;
-    font-size: 22px;
-}
-nav ul{
-    display: flex;
-    column-gap: 21px;
-    align-items: center;
-    flex-wrap: wrap;
+*{
+    text-decoration: none;
+
 }
 li{
     list-style: none;
+
 }
-a{
-    text-decoration: none;
-    color: #737373;
-    font-weight: 600;
-    font-size: 10px;
+h1{
+    font-size: 2.5rem;
 }
-.headbutton1{
-    color: #96BB7C;
-    background-color: #FFFFFF;
+h2{
+    font-size: 1.5rem;
 }
-.headbutton2{
-    background-color: #96BB7C;
-    color: #FFFFFF;
-    padding: 5px 20px;
+h3{
+    font-size: 1.2rem;
 }
-.hero{
-    display: flex;
+h6{
+    font-size: 1rem;
 }
-.hero h5{
-    width: 59px;
-    height: 24px;
-    font-weight: 700;
-    size: 16px;
-    letter-spacing: 0.1px;
-    color: #96BB7C;
-}
-.hero h1{
-    letter-spacing: 0.2px;
-    color: #252B42;
-}
-.hero h4{
-    line-height: 30PX;
-    font-weight: 400;
-    size: 20PXpx;
-    letter-spacing: 0.2px;
-    color: #737373;
-}
-.herobutton1{
-    border-radius: 5px;
-    background-color: #96BB7C;
-    width: 100px;
-    height: 40px;
-    color: #FFFFFF;
-}
-.herobutton2{
-    border-color: #96BB7C;
-    color: #96BB7C;
-    background-color: #FFFFFF;
-    width: 100px;
-    height: 40px;
-}
-.image1{
-    width: 350px;
-    height: 350px;
-}
-.image2{
-    width: 350px;
-    height: 350px;
-}
-.image3{
-    width: 350px;
-    height: 350px;
-}
-.image4{
-    width: 30px;
-    height: 30px;
+.container{
+    width: 80%;
+    margin: 0 auto;
     
 }
-.imagess{
+
+.row{
     display: flex;
+    justify-content:space-between;
+    align-items: center;
+    column-gap: 50px;
+    padding: 15px 0;
+}
+
+.orange-text-color{
+   color: rgba(231, 64, 64, 1);
+   
+}
+
+.orange-bg-color{
+   background-color: rgba(231, 64, 64, 1);
+}
+.green-bg-color{
+   background-color:  #96bb7c;
+}
+.ll{
+    color: black;
+}
+.lg{
+    color: #737373;
+}
+.lo{
+    border-color: #96bb7c;
+}
+
+.green-text-color{
+ color: rgba(150, 187, 124, 1);
+}
+
+/*******
+Header  *********/
+.header {
+    position: sticky; 
+    top: 0;
+    background-color: white;
+    box-shadow: rgb(133, 134, 55) 0px 20px 30px -10px;
+    z-index: 99;
+      
+}
+.header > div{
+    display: flex;
+    column-gap: 50px;
+ 
+}
+nav{
+    width: 100%;
+    display:flex;  
+}
+
+/*******
+Hero-section  *********/
+#hero-sectiom-wrapper{
     position: relative;
+    height: 100vh;
 }
+.image-box{
+    position: relative;
+     width: 50%;
+    height: 500px;
+    top: -60px;
+    flex: 1;
+    margin-top: 20px;
 
-.imagess img{
+}
+.img-1{
+    position: absolute; 
+    width: 500px;   
+}
+.img-2{
     position: absolute;
+    width: 600px;
+   left: -180px;
+   top: 130px;
+   
 }
-.card{
-    display: flex;
-    gap: 20px;
+.img-3{
+    position: absolute;
+       width: 580px;
+       top: 90px;
+       right: -70px;
+    
+}
+.img-4{
+    position: absolute;
+    width: 500px;
+    height: 600px;
+}
+.img-5{
+    position: absolute;
+    top: 90px;
+    left: -50px;
 }
 
-.card1{
-    width: 300px;
-    height: 300px;
-    background-color: #FFFFFF;
+.hero-content{
+    width: 40%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    top: 160px;
+    
+   
 }
-.card2{
-    width: 300px;
-    height: 300px;
-    background-color: #FFFFFF;
+/*******
+count-section  *********/
+#count-section{
+    position: absolute;
+    bottom: 20px;
+    
 }
-.card3{
-    width: 300px;
-    height: 300px;
-    background-color: #FFFFFF;
+.count-card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: lightcyan;
+    box-shadow: rgb(161, 35, 56) 0px 20px 30px -10px;
+    padding: 20px;
+   display: inline-block;
 }
+.icon-box{
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.divider{
+    height: 3px;
+    width: 50px;
+   
+}
+/*******
+stats-section *********/
+.stats-section{
+     position: absolute;
+} 
+.stats-card{
+    text-align: center;
+}
+ .stats-card h2{
+    margin-bottom: 10px;
+ }
